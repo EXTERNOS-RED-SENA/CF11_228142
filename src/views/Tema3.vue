@@ -82,7 +82,7 @@
         img.img-a.img-t(src='@/assets/curso/temas/51.png' alt='')  
       .col.pt-lg-0.pt-md-4
         .bg1.p-3.h-100.j1
-          p.mb-0 Los límites aceptables para cada parámetro están definidos por los estándares internacionales y varían según la categoría del cable y el tipo de aplicación. Es fundamental conocer estos límites para determinar si el cableado es adecuado para las aplicaciones previstas, como redes gigabit, VoIP o transmisión de video en alta definición.  
+          p.mb-0 Los límites aceptables para cada parámetro están definidos por los estándares internacionales y varían según la categoría del cable y el tipo de aplicación. Es fundamental conocer estos límites para determinar si el cableado es adecuado para las aplicaciones previstas, como redes #[i gigabit], VoIP o transmisión de video en alta definición.  
 
     .row.justify-content-start.my-4
       .col-auto
@@ -132,21 +132,21 @@
                 td Hasta 100 Mbps
                 td 100 MHz
                 td 100 MHz
-                td Redes Ethernet estándar (Fast Ethernet)
+                td Redes #[i Ethernet] estándar (Fast #[i Ethernet])
                 td Descontinuada; reemplazada por Cat 5e debido a mejoras en la diafonía y rendimiento.
               tr
                 td.fast-bold.bgt1 Cat 5e
                 td Hasta 1 Gbps
                 td 100 MHz
                 td 100 MHz
-                td Redes Ethernet Gigabit, VoIP, transmisión de video
+                td Redes #[i Ethernet] #[i gigabit], VoIP, transmisión de video
                 td Mayor control de diafonía en comparación con Cat 5; sigue siendo común en instalaciones.
               tr
                 td.fast-bold.bgt1 Cat 6
                 td Hasta 1 Gbps (10 Gbps a distancias cortas)
                 td 250 MHz
                 td 250 MHz
-                td Redes Gigabit, aplicaciones multimedia, videoconferencia
+                td Redes #[i gigabit], aplicaciones multimedia, videoconferencia
                 td Recomendado para redes que necesitan alta velocidad y menor interferencia.
               tr
                 td.fast-bold.bgt1 Cat 6a 

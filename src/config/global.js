@@ -155,7 +155,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/228142_CF011_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -236,7 +236,7 @@ export default {
     {
       termino: 'BIOS/UEFI',
       significado:
-        '<i>Software</i> de bajo nivel que inicia y gestiona el hardware del sistema antes de cargar el sistema operativo.',
+        '<i>Software</i> de bajo nivel que inicia y gestiona el <i>hardware</i> del sistema antes de cargar el sistema operativo.',
     },
     {
       termino: 'Calibración',
@@ -246,7 +246,7 @@ export default {
     {
       termino: 'Categoría de cable',
       significado:
-        'Clasificación que indica las especificaciones de rendimiento de un cable de red, como Cat 5e, Cat 6, etc.',
+        'Clasificación que indica las especificaciones de rendimiento de un cable de red, como Cat5e, Cat6, etc.',
     },
     {
       termino: 'Certificación',

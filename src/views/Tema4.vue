@@ -75,7 +75,7 @@
             .list__item__icon
               img(src='@/assets/curso/temas/icon.svg', alt='')
           .list__txt.bgicon.text-white.p-0.px-4
-            h3.mb-1 Pérdida de retorno
+            h3.mb-1 Importancia de los informes
 
     .row.justify-content-center.mb-5
       .col-lg-4.my-lg-0.my-3
@@ -189,8 +189,8 @@
                 figure
                   img(src="@/assets/curso/temas/20.png", alt="alt")
               .crd_hover_txt--body
-                h4.mb-3 Actualizaciones de firmware y equipos
-                p.mb-0 Documentación sobre las actualizaciones realizadas en los equipos de red y cualquier cambio en el software o hardware que pueda afectar el rendimiento del cableado.                    
+                h4.mb-3 Actualizaciones de #[i firmware] y equipos
+                p.mb-0 Documentación sobre las actualizaciones realizadas en los equipos de red y cualquier cambio en el #[i software] o #[i hardware] que pueda afectar el rendimiento del cableado.                    
 
 
     .row.justify-content-start.my-4
@@ -207,7 +207,7 @@
           li 
             .lista-ol--cuadro__vineta
               span 1
-            span #[b Organización estructurada:] Mantener los registros organizados por fecha y tipo de documento facilita la búsqueda de información relevante. Se recomienda el uso de software de gestión documental para grandes instalaciones.
+            span #[b Organización estructurada:] Mantener los registros organizados por fecha y tipo de documento facilita la búsqueda de información relevante. Se recomienda el uso de #[i software] de gestión documental para grandes instalaciones.
           hr
           li 
             .lista-ol--cuadro__vineta

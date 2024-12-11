@@ -45,11 +45,11 @@
           .col-lg-3.d-none.d-lg-block.j1 
             img.img-a.img-t(src='@/assets/curso/temas/25.png', alt='')
           .col-lg-9
-            .bg9.brad.p-4.h-100.j1
+            .bg-slyder.p-3.brad
               SlyderA(tipo="b")
                 .bgw.sha.brad1.p-4.h-100
                   .row.justify-content-center
-                    .col-lg-4.my-lg-0.my-3
+                    .col-lg-4.my-lg-0.my-3.d-none.d-lg-block
                       img.img-a.img-t(src='@/assets/curso/temas/26.png' alt='')  
                     .col-lg-8.my-lg-0.my-3
                       h5 Longitud del cable 
@@ -57,7 +57,7 @@
 
                 .bgw.sha.brad1.p-4.h-100
                   .row.justify-content-center
-                    .col-lg-4.my-lg-0.my-3
+                    .col-lg-4.my-lg-0.my-3.d-none.d-lg-block
                       img.img-a.img-t(src='@/assets/curso/temas/26.png' alt='')  
                     .col-lg-8.my-lg-0.my-3
                       h5 Calidad del material del cable
@@ -65,15 +65,15 @@
                     
                 .bgw.sha.brad1.p-4.h-100
                   .row.justify-content-center
-                    .col-lg-4.my-lg-0.my-3
+                    .col-lg-4.my-lg-0.my-3.d-none.d-lg-block
                       img.img-a.img-t(src='@/assets/curso/temas/26.png' alt='')  
                     .col-lg-8.my-lg-0.my-3
                       h5 Frecuencia de la señal 
-                      p.mb-0 Las señales de alta frecuencia experimentan una atenuación mayor que las de baja frecuencia. Esto es particularmente relevante en redes que deben manejar grandes volúmenes de datos a alta velocidad, como las conexiones gigabit y superiores.
+                      p.mb-0 Las señales de alta frecuencia experimentan una atenuación mayor que las de baja frecuencia. Esto es particularmente relevante en redes que deben manejar grandes volúmenes de datos a alta velocidad, como las conexiones #[i gigabit] y superiores.
 
                 .bgw.sha.brad1.p-4.h-100
                   .row.justify-content-center
-                    .col-lg-4.my-lg-0.my-3
+                    .col-lg-4.my-lg-0.my-3.d-none.d-lg-block
                       img.img-a.img-t(src='@/assets/curso/temas/26.png' alt='')  
                     .col-lg-8.my-lg-0.my-3
                       h5 Condiciones ambientales:  
@@ -121,7 +121,7 @@
     .row.justify-content-center.mb-5
       .col-lg-4.my-lg-0.my-3
         .bg10.p-4.brad.h-100
-          p.mb-0 La pérdida de retorno (Return Loss) es otra medida básica en la certificación de cableado estructurado. Se refiere a la cantidad de señal que se refleja de vuelta hacia el transmisor en lugar de continuar hacia el receptor. Estas reflexiones ocurren debido a discontinuidades en el cableado, como variaciones de impedancia, conexiones mal hechas o defectos en los cables.
+          p.mb-0 La pérdida de retorno (#[i Return Loss]) es otra medida básica en la certificación de cableado estructurado. Se refiere a la cantidad de señal que se refleja de vuelta hacia el transmisor en lugar de continuar hacia el receptor. Estas reflexiones ocurren debido a discontinuidades en el cableado, como variaciones de impedancia, conexiones mal hechas o defectos en los cables.
 
       .col-lg-4.my-lg-0.my-3
         img.img-a.img-t(src='@/assets/curso/temas/28.png' alt='') 
@@ -176,7 +176,7 @@
           li 
             .lista-ol--cuadro__vineta
               span 2
-            span #[b Impacto en aplicaciones sensibles:] Aplicaciones como VoIP, streaming de video y sistemas de datos en tiempo real dependen de una red que minimice la pérdida de señal. Incluso pequeñas desviaciones en estos parámetros pueden tener un impacto significativo en el rendimiento.
+            span #[b Impacto en aplicaciones sensibles:] Aplicaciones como VoIP, #[i streaming] de video y sistemas de datos en tiempo real dependen de una red que minimice la pérdida de señal. Incluso pequeñas desviaciones en estos parámetros pueden tener un impacto significativo en el rendimiento.
           hr          
           li 
             .lista-ol--cuadro__vineta
@@ -231,7 +231,7 @@
           .col.pt-lg-0.pt-md-4
             h5 Diafonía
 
-            p.mb-0 La diafonía ocurre cuando la señal transmitida por un par de cables induce una interferencia no deseada en otro par de cables cercano. Se mide de dos formas: NEXT (Near-End Crosstalk) y FEXT (Far-End Crosstalk).       
+            p.mb-0 La diafonía ocurre cuando la señal transmitida por un par de cables induce una interferencia no deseada en otro par de cables cercano. Se mide de dos formas: NEXT (#[i Near-End Crosstalk]) y FEXT (#[i Far-End Crosstalk]).       
 
         .row.justify-content-center
           .col-lg-6.my-lg-0.my-3
@@ -270,7 +270,7 @@
           div(titulo="Retardo de propagación ")
             p Este parámetro mide la velocidad de la señal en el cable. Factores como la longitud y el tipo de material del cable pueden influir en el retardo de propagación. Un retardo excesivo puede resultar en problemas de sincronización, especialmente en aplicaciones como la transmisión de video en tiempo real. 
           div(titulo="<i>Skew</i> de retardo ")
-            p La diferencia en los tiempos de llegada de las señales en distintos pares de cables es crítica en redes gigabit y superiores. Un #[i skew] de retardo elevado puede provocar fallos de sincronización, lo que afectará la eficacia general de la red.                          
+            p La diferencia en los tiempos de llegada de las señales en distintos pares de cables es crítica en redes #[i gigabit] y superiores. Un #[i skew] de retardo elevado puede provocar fallos de sincronización, lo que afectará la eficacia general de la red.                          
 
     .row.justify-content-start.my-5
       .col-auto
@@ -279,7 +279,7 @@
             .list__item__icon
               img(src='@/assets/curso/temas/icon.svg', alt='')
           .list__txt.bgicon.text-white.p-0.px-4
-            h3.mb-1 Soluciones para mitigar el retardo y el skew
+            h3.mb-1 Soluciones para mitigar el retardo y el #[i skew]
   
     .row.justify-content-center.mb-4
       .col-lg-8.my-lg-0.my-3.j1
@@ -287,7 +287,7 @@
           li 
             .lista-ol--cuadro__vineta
               span 1
-            span #[b Utilizar cables de alta calidad:] Los cables diseñados específicamente para aplicaciones de alta velocidad tienden a tener un mejor rendimiento en términos de retardo y skew.
+            span #[b Utilizar cables de alta calidad:] Los cables diseñados específicamente para aplicaciones de alta velocidad tienden a tener un mejor rendimiento en términos de retardo y #[i skew].
           hr
           li 
             .lista-ol--cuadro__vineta
@@ -372,11 +372,11 @@
           .col-lg-3.d-none.d-lg-block.j1 
             img.img-a.img-t(src='@/assets/curso/temas/44.png', alt='')
           .col-lg-9
-            .bg9.brad.p-4.h-100.j1
+            .bg-slyder.p-3.brad.mt-0
               SlyderA(tipo="b")
                 .bgw.sha.brad1.p-4.h-100
                   .row.justify-content-center
-                    .col-lg-4.my-lg-0.my-3
+                    .col-lg-4.my-lg-0.my-3.d-none.d-lg-block
                       img.img-a.img-t(src='@/assets/curso/temas/45.png' alt='')  
                     .col-lg-8.my-lg-0.my-3
                       h5 Revisar las conexiones
@@ -384,7 +384,7 @@
 
                 .bgw.sha.brad1.p-4.h-100
                   .row.justify-content-center
-                    .col-lg-4.my-lg-0.my-3
+                    .col-lg-4.my-lg-0.my-3.d-none.d-lg-block
                       img.img-a.img-t(src='@/assets/curso/temas/45.png' alt='')  
                     .col-lg-8.my-lg-0.my-3
                       h5 Seguir estándares de cableado

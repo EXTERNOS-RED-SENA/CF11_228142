@@ -16,7 +16,7 @@
           .col-lg-auto
             img.img-a.img-t(src='@/assets/curso/temas/3.png' alt='')
           .col.pt-lg-0.pt-md-4
-            p.mb-0 Complementariamente, el componente enfatiza la importancia de la documentación completa y precisa, incluyendo la generación de informes detallados que validan las instalaciones y facilitan el soporte técnico futuro. Se destaca la gestión de garantías y la planificación de mantenimiento preventivo, permitiendo que las redes permanezcan funcionales y fiables a lo largo del tiempo.
+            p.mb-0 Se exploran también los métodos de diagnóstico para identificar problemas, así como las estrategias de corrección necesarias, como el reemplazo de componentes defectuosos y el ajuste de conexiones, asegurando que la infraestructura cumpla con los estándares internacionales. La precisión en estas etapas es fundamental para optimizar la transmisión de datos y prevenir interferencias que puedan afectar el funcionamiento de la red.
         
     p.mb-5 Complementariamente, el componente enfatiza la importancia de la documentación completa y precisa, incluyendo la generación de informes detallados que validan las instalaciones y facilitan el soporte técnico futuro. Se destaca la gestión de garantías y la planificación de mantenimiento preventivo, permitiendo que las redes permanezcan funcionales y fiables a lo largo del tiempo.
 
