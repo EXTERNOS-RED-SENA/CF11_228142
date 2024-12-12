@@ -37,7 +37,8 @@
       .col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/rraVJK8RICo?si=X49J8_13EoewU8HG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)         
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/rraVJK8RICo?si=EwN5hhskEV4HXGNi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)     
+          figcaption Video. Certificación de cableado estructurado: pruebas y estándares    
 </template>
 
 <script>
